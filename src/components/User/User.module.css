@@ -1,0 +1,47 @@
+
+
+.users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 1rem;
+}
+.users_block{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    /* outline: 1px solid red; */
+    position: relative;
+}
+.user_img_block{
+    width: 2rem;
+
+}
+.user_img{
+    width: 100%;
+    display:block;
+}
+.users_list_item{
+    list-style-type: none;
+
+}
+.users span{
+    font-weight: 500;
+    color: green;
+}
+.users_about{
+    font-size: 9px;
+    margin-left: 3rem;
+}
+.users_about button{
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    position: absolute;
+    right: 5rem;
+    top: 20%;
+}
+

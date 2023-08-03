@@ -1,0 +1,9 @@
+main{
+    background-color: aliceblue;
+    padding: 2rem 3rem;
+}
+
+.main_subtitle{
+    cursor: pointer;
+    width: 30%;
+}
